@@ -44,6 +44,10 @@ progetto-Bottarelli-Di_Landro-Suardi/
 
 ## Avvio
 
+Creare la cartella
+```/progetto-Bottarelli-Di_Landro-Suardi```
+nella home del proprio Codespace, all'interno della quale vanno inseriti tutti gli script forniti.
+
 ```bash
 chmod +x install_server.sh
 ./install_server.sh
