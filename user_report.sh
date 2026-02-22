@@ -12,7 +12,7 @@
 # Formato log: DATA|ORA|IP|CODICE_ERRORE|PID
 # =============================================================================
 
-ROOT_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+ROOT_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
 USERS_CSV="$ROOT_DIR/data/users.csv"
 LOG_FILE="$ROOT_DIR/logs/access.log"
 OUT_DIR="$ROOT_DIR/logs_output"

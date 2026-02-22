@@ -4,9 +4,9 @@ import random
 from datetime import datetime, timedelta
 
 
-USERS_CSV   = "/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/data/users.csv"
-LOG_FILE    = "/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/logs/access.log"
-CONFIG_FILE = "/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/config/settings.conf"
+USERS_CSV   = "/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/data/users.csv"
+LOG_FILE    = "/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/logs/access.log"
+CONFIG_FILE = "/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/config/settings.conf"
 
 # Modificare questi valori per controllare il comportamento della simulazione.
 

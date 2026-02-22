@@ -7,7 +7,7 @@
 #   $4 = CODICE_ERRORE (200/400)     $5 = PID
 # =============================================================================
 
-ROOT_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+ROOT_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
 LOG_FILE="$ROOT_DIR/logs/access.log"
 WHITELIST="$ROOT_DIR/config/whitelist.conf"
 BLACKLIST="$ROOT_DIR/config/blacklist.conf"

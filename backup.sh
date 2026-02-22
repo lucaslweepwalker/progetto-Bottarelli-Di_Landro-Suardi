@@ -7,7 +7,7 @@
 # Permette anche di ripristinare un backup precedente.
 # =============================================================================
 
-ROOT_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+ROOT_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
 USERS_CSV="$ROOT_DIR/data/users.csv"
 WHITELIST="$ROOT_DIR/config/whitelist.conf"
 BACKUP_DIR="$ROOT_DIR/data/backups"

@@ -11,7 +11,7 @@
 #   ./log_rotation.sh --undo   -> ripristina l'ultimo archivio nel log
 # =============================================================================
 
-ROOT_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+ROOT_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
 LOG_FILE="$ROOT_DIR/logs/access.log"
 ARCHIVE_DIR="$ROOT_DIR/logs/archive"
 SOGLIA_GIORNI=30

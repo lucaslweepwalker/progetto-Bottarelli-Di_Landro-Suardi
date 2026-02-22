@@ -10,7 +10,7 @@
 #   3. Aggiorna lo snapshot
 # =============================================================================
 
-ROOT_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+ROOT_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
 USERS_CSV="$ROOT_DIR/data/users.csv"
 SNAPSHOT="$ROOT_DIR/data/users_snapshot.csv"
 OUT_DIR="$ROOT_DIR/logs_output"

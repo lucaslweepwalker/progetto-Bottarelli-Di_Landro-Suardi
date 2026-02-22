@@ -4,8 +4,8 @@
 # install_server.sh  –  Setup simulazione server intranet
 # =============================================================================
 
-SERVER_ROOT="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
-SCRIPTS_DIR="/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi"
+SERVER_ROOT="/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim"
+SCRIPTS_DIR="/workspaces/progetto-Bottarelli-Di_Landro-Suardi"
 ACCESS_LOG="$SERVER_ROOT/logs/access.log"
 WHITELIST="$SERVER_ROOT/config/whitelist.conf"
 

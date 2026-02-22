@@ -41,7 +41,7 @@ def random_password(length = 8):
 
 
 def main():
-    OUTPUT_PATH = "/workspaces/codespaces-blank/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/data/users.csv"
+    OUTPUT_PATH = "/workspaces/progetto-Bottarelli-Di_Landro-Suardi/intranet_sim/data/users.csv"
     
     users = 100
     rows = []
