@@ -28,8 +28,7 @@ python3 "$SCRIPTS_DIR/create_users.py"
 
 python3 "$SCRIPTS_DIR/create_accesslog.py"
 
-awk -F "|" '{print $3}' "$ACCESS_LOG" | sort -u | shuf -n 96 > "$WHITELIST"
-
+awk -F "," 'NR>1 && $6 ~ /^192\.168\./ { gsub(/ |\r/, "", $6); print $6 }' "$SERVER_ROOT/data/users.csv" | sort -t'.' -k3,3n -k4,4n > "$WHITELIST"
 echo ""
 echo "Server Simulation Ready."
 echo "  data/users.csv        -> $(wc -l < "$SERVER_ROOT/data/users.csv") righe"
