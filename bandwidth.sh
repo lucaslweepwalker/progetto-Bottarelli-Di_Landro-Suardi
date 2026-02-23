@@ -81,7 +81,7 @@ while IFS= read -r giorno; do
     echo "--- $giorno ---" >> "$REPORT"
 
     # Per ogni utente nel CSV, calcola i MB consumati in questo giorno
-    tail -n +2 "$USERS_CSV" | while IFS="," read -r uid nome pass level ip; do
+    tail -n +2 "$USERS_CSV" | while IFS="," read -r uid nome mail pass level ip; do
         ip=$(echo "$ip" | tr -d ' \r')
         level=$(echo "$level" | tr -d ' \r')
         nome=$(echo "$nome" | tr -d '\r')
