@@ -7,7 +7,7 @@
 # Soglie diverse per livello -> alert email se superata.
 #
 # Formato log:  DATA|ORA|IP|CODICE_ERRORE|PID
-# Formato CSV:  id,name_surname,password,level,ip_address
+# Formato CSV:  id,name_surname,mail,password,level,ip_address
 #
 # Soglie:
 #   Level 3 = admin       -> 200 MB/giorno
