@@ -167,8 +167,7 @@ case $# in
             printf -v E_PAD "%02d" "$END_HR"
 
             OUT="$OUT_FILE/log_date_hour_${DATE}_${S_PAD}-${E_PAD}.log"
-            awk -F"|" -v d="$DATE" -v s="$S_PAD" -v e="$E_PAD" '{h = substr($2,1,2) + 0 } $1 == d && h >= s && h < e' "$LOG_FILE" > "$OUT"
-
+            awk -F"|" -v d="$DATE" -v s="$S_PAD" -v e="$E_PAD" '{h = substr($2,1,2) + 0 } $1 == d && h >= s+0 && h < e+0' "$LOG_FILE" > "$OUT"
             if [[ -s "$OUT" ]]; then
                 echo "Voci di log per la data $DATE tra le $S_PAD:00 e le $(($E_PAD - 1)):59 salvate in $OUT_FILE come log_date_hour_${DATE}_${S_PAD}-${E_PAD}.log"
             else
